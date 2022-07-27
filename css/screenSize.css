@@ -1,0 +1,31 @@
+.only-mobile{
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .only-mobile {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 200;
+        background-color: rgb(243, 243, 10);
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.only-mobile .logo{
+    margin-bottom: 1em;
+    width: 7em;
+    height: 7em;
+    background:url(../mega_talk/logo.png);
+    overflow: hidden;
+    background-size: contain;
+}
+
+.only-mobile p{
+    font-size: 1.3em;
+    color: green;
+}
