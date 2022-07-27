@@ -14,12 +14,12 @@
 
 .status-icon img{
     width: 5vw;
-    height: 3vh;
+    height: 3vw;
     margin-left: 1vw;
 }
 
 .status-icon .battery{
-    width: 7vw;
+    width: 6vw;
 }
 
 .menu-bar {

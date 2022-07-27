@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="css/global.css">
         <link rel="stylesheet" href="css/screenSize.css">
         <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/chatting.css">
         <link rel="stylesheet" href="css/navigation.css">
     </head>
     <body>
@@ -24,7 +24,7 @@
                 </div>
             </div>
                 <div class = "menu-bar">
-                    <h2>친구</h2>
+                    <h2>채팅</h2>
                         <nav>
                     <ul class = "menu-icon">
                         <li class = "search">
@@ -41,42 +41,40 @@
                 </div> 
         </header>
         <main>
-            <section class = "my-profile">
-                <a href="#">
-                    <div class = "george-profile"></div>
-                    <p>조지</p>
-                </a>
-            </section>
-            <section class = "friends">
-                <p>친구 3</p>
-                <img src ="images/chevron-down.png">
-            </section>
-            <section class = "friends-profile">
-                <ul>
-                    <li>
+            <section>
+                <ul id ="chats">
+                    <li class = "chat">
                         <a href="#">
-                            <img src ="images/avatar.png">
-                            <p>엘리스</p>
+                            <div class = "avatar">프로필 이미지</div>
+                            <div class = "content">
+                            <h2>엘리스</h2>
+                            <p>
+                                오늘도 미라클 모닝 체크인 해야지?
+                                오늘도 미라클 모닝 체크인 해야지?
+                                오늘도 미라클 모닝 체크인 해야지? 
+                            </p>
+                            </div>
+                            <time datetime="05:01">오전 5:01</time>
                         </a>
                     </li>
-                    <li>
+                    <li class = "chat">
                         <a href="#">
-                            <img src ="images/avatar.png">
-                            <p>체셔 캣</p>
-                        </a>    
+                            <div class = "avatar">프로필 이미지</div>
+                            <div class = "content">
+                            <h2>채셔 캣</h2>
+                            <p>
+                                이제 나도 자야겠다. 내일 봐~
+                            </p>
+                            </div>
+                            <time datetime="05:01">오전 1:11</time>
+                        </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <img src ="images/avatar.png">
-                            <p>페페</p>
-                        </a>    
-                    </li>
-                </ul>
+                </ul>    
             </section>
             <nav class = "navigation">
                 <ul>
                     <li>
-                        <a class = "friend" href="#"></a>
+                        <a class = "friend" href="index.html"></a>
                     </li>
                     <li>
                         <a class = "chatting" href="chatting.html"></a>

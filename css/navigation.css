@@ -12,17 +12,18 @@
 .navigation ul{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navigation li{    
     width: 13vw;
     height: 13vw;
+    padding-top: 3.5vw;
+    margin-left: 7vw;
 }
 
 .navigation a{
     display: block;
-    padding: 2vw;
-    align-items: center;
 }
 
 .navigation .friend{
