@@ -18,9 +18,9 @@
 
 .only-mobile .logo{
     margin-bottom: 1em;
-    width: 7em;
-    height: 7em;
-    background:url(../mega_talk/logo.png);
+    width: 20vw;
+    height: 20vw;
+    background:url(../images/logo.png);
     overflow: hidden;
     background-size: contain;
 }
