@@ -2,7 +2,7 @@
     display: none;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 600px) {
     .only-mobile {
         position: fixed;
         display: flex;
@@ -18,11 +18,12 @@
 
 .only-mobile .logo{
     margin-bottom: 1em;
-    width: 20vw;
-    height: 20vw;
+    width: 7.5em;
+    height: 7em;
     background:url(../images/logo.png);
-    overflow: hidden;
-    background-size: contain;
+    background-size: cover;
+    text-indent: -1000px;
+    overflow: hidden;    
 }
 
 .only-mobile p{

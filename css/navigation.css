@@ -27,15 +27,27 @@
 }
 
 .navigation .friend{
+    background-image: url(../images/user-blank.png);
+    background-size: cover;
+    width: 5vw;
+    height: 5vw;
+}
+
+.navigation .active .friend{
     background-image: url(../images/user-fill.png);
     background-size: cover;
     width: 5vw;
     height: 5vw;
-    
-  
 }
 
 .navigation .chatting {
+    background-image: url(../images/chat-blank.png);
+    background-size: cover;
+    width: 5vw;
+    height: 5vw;
+}
+
+.navigation .active .chatting {
     background-image: url(../images/chat-fill.png);
     background-size: cover;
     width: 5vw;
